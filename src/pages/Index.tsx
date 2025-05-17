@@ -36,6 +36,7 @@ import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import AnimatedHero from "@/components/AnimatedHero";
 import { Cover } from "@/components/ui/cover";
+import { Hero } from "@/components/Hero";
 
 const Index = () => {
   const [showAllServices, setShowAllServices] = useState(false);
@@ -218,6 +219,8 @@ const Index = () => {
         </section> */}
 
         <AnimatedHero/>
+
+        {/* <Hero/> */}
 
         {/* <div className="pt-0">
         <Marquee messages={marqueeMessages} />

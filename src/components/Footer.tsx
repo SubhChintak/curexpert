@@ -22,7 +22,9 @@ export default function Footer() {
                 alt="CureXpert Logo" 
                 className="h-10 w-10 mr-2" 
               />
-              <span className="font-bold text-2xl text-sky-400">CureXpert India</span>
+              <span className="font-bold text-2xl">
+                <span className="font-bold text-2xl sm:text-2xl text-red-600">Cure</span><span className=" font-bold text-2xl sm:text-2xl text-sky-500">Xpert</span>
+              </span>
             </div>
             <p className="text-gray-300 text-sm max-w-xs">
               Transforming healthcare, one patient at a time. We connect you with premium healthcare services across India.

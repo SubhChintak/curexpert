@@ -86,16 +86,17 @@ export default function Navbar() {
               src="/lovable-uploads/curexpert-logo.png" 
               alt="CureXpert Logo" 
               className="w-10 h-10"
-              onClick={() => navigate('/')}
+              onClick={() => navigate('/#')}
               style={{ cursor: 'pointer' }}
             />
-            <span 
-              className="font-bold text-xl sm:text-2xl text-sky-400 dark:text-sky-400"
-              onClick={() => navigate('/')}
-              style={{ cursor: 'pointer' }}
+            <div 
+              // className="font-bold text-xl sm:text-2xl"
+              // onClick={() => navigate('/')}
+              // style={{ cursor: 'pointer' }}
             >
-              CureXpert
-            </span>
+              {/* CureXpert */}
+              <a href="/#" className="font-bold text-xl sm:text-2xl text-red-600">Cure</a><a href="/#" className=" font-bold text-xl sm:text-2xl text-sky-500">Xpert</a>
+            </div>
           </div>
 
           {/* Desktop Navigation */}

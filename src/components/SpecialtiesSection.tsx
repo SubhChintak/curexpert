@@ -15,42 +15,42 @@ const specialties: Specialty[] = [
   {
     id: "medicine",
     name: "Medicine",
-    bannerImage: "https://images.unsplash.com/photo-1584982751601-97dcc096659c?q=80&w=2942&auto=format&fit=crop"
+    bannerImage: "https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: "orthopedic",
     name: "Orthopedic",
-    bannerImage: "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?q=80&w=2940&auto=format&fit=crop"
+    bannerImage: "https://images.pexels.com/photos/207496/pexels-photo-207496.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   },
   {
     id: "gastroenterology",
     name: "Gastroenterology",
-    bannerImage: "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?q=80&w=2940&auto=format&fit=crop"
+    bannerImage: "https://plus.unsplash.com/premium_photo-1723108858066-66b1bd834675?q=80&w=1596&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
-    id: "ophthalmology",
+    id: "eyespecialist",
     name: "Eye Specialist",
-    bannerImage: "https://images.unsplash.com/photo-1559725043-fb9a0bc33242?q=80&w=2671&auto=format&fit=crop"
+    bannerImage: "https://plus.unsplash.com/premium_photo-1664478176640-979307f52046?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: "gynecology",
     name: "Gynaecologist",
-    bannerImage: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2940&auto=format&fit=crop"
+    bannerImage: "https://plus.unsplash.com/premium_photo-1702599037743-79b357229fb5?q=80&w=752&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: "dental",
     name: "Dentist",
-    bannerImage: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?q=80&w=2936&auto=format&fit=crop"
+    bannerImage: "https://images.unsplash.com/photo-1606811951341-756fdd437682?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
-    id: "pediatrics",
+    id: "childspecialist",
     name: "Child Specialist",
-    bannerImage: "https://images.unsplash.com/photo-1565538420870-da08ff96a207?q=80&w=2940&auto=format&fit=crop"
+    bannerImage: "https://images.unsplash.com/photo-1576766125535-b04e15fd0273?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: "ent",
     name: "ENT",
-    bannerImage: "https://images.unsplash.com/photo-1631815588090-d4fb58bcd2c8?q=80&w=2832&auto=format&fit=crop"
+    bannerImage: "https://plus.unsplash.com/premium_photo-1661779725491-e997e70928fc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: "neurology",
@@ -58,49 +58,49 @@ const specialties: Specialty[] = [
     bannerImage: "https://images.unsplash.com/photo-1559757175-5700dde675bc?q=80&w=2873&auto=format&fit=crop"
   },
   {
-    id: "medicine",
-    name: "Medicine",
-    bannerImage: "https://images.unsplash.com/photo-1584982751601-97dcc096659c?q=80&w=2942&auto=format&fit=crop"
+    id: "paediatrics",
+    name: "Paediatrics",
+    bannerImage: "https://images.unsplash.com/photo-1676313030076-4ac0b37050fd?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
-    id: "orthopedic",
-    name: "Orthopedic",
-    bannerImage: "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?q=80&w=2940&auto=format&fit=crop"
+    id: "nephrology",
+    name: "Nephrology",
+    bannerImage: "https://plus.unsplash.com/premium_photo-1722608200931-5c787cf3053d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
-    id: "gastroenterology",
-    name: "Gastroenterology",
-    bannerImage: "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?q=80&w=2940&auto=format&fit=crop"
+    id: "pulmonology",
+    name: "Pulmonology",
+    bannerImage: "https://plus.unsplash.com/premium_photo-1722947097108-9af829cf1ded?q=80&w=1624&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
-    id: "ophthalmology",
-    name: "Eye Specialist",
-    bannerImage: "https://images.unsplash.com/photo-1559725043-fb9a0bc33242?q=80&w=2671&auto=format&fit=crop"
+    id: "urology",
+    name: "Urology",
+    bannerImage: "https://plus.unsplash.com/premium_photo-1702599099904-4f25f14b0471?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
-    id: "gynecology",
-    name: "Gynaecologist",
-    bannerImage: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2940&auto=format&fit=crop"
+    id: "oncology",
+    name: "Oncology",
+    bannerImage: "https://images.unsplash.com/photo-1693264882139-6a308957c9ae?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
-    id: "dental",
-    name: "Dentist",
-    bannerImage: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?q=80&w=2936&auto=format&fit=crop"
+    id: "physiotherapy",
+    name: "Physiotherapy",
+    bannerImage: "https://plus.unsplash.com/premium_photo-1661901748991-17870b6614af?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
-    id: "pediatrics",
-    name: "Child Specialist",
-    bannerImage: "https://images.unsplash.com/photo-1565538420870-da08ff96a207?q=80&w=2940&auto=format&fit=crop"
+    id: "neurosurgeon",
+    name: "Neuro Surgeon",
+    bannerImage: "https://images.unsplash.com/photo-1579684453377-48ec05c6b30a?q=80&w=1491&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
-    id: "ent",
-    name: "ENT",
-    bannerImage: "https://images.unsplash.com/photo-1631815588090-d4fb58bcd2c8?q=80&w=2832&auto=format&fit=crop"
+    id: "ayurvedic",
+    name: "Ayurvedic",
+    bannerImage: "https://images.unsplash.com/photo-1569936906148-06de87cb0681?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
-    id: "neurology",
-    name: "Neurology",
-    bannerImage: "https://images.unsplash.com/photo-1559757175-5700dde675bc?q=80&w=2873&auto=format&fit=crop"
+    id: "homeopathy",
+    name: "Homeopathy",
+    bannerImage: "https://images.unsplash.com/photo-1512867957657-38dbae50a35b?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   
 ];
@@ -199,7 +199,7 @@ export default function SpecialtiesSection() {
               
               {/* Glassmorphism headline container */}
               <div className="absolute bottom-0 left-0 right-0 p-3">
-                <div className="backdrop-blur-md bg-sky-500/20 dark:bg-sky-800/30 rounded-lg p-2 border border-white/10 shadow-lg">
+                <div className="backdrop-blur-md bg-sky-900/90 dark:bg-sky-900/90 rounded-lg p-2 border border-white/10 shadow-lg">
                   <h3 className="text-white text-base sm:text-lg font-bold tracking-wide text-center">
                     {specialty.name}
                   </h3>
