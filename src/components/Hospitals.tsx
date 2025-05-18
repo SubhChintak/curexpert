@@ -88,7 +88,7 @@ export default function Hospitals({ isOpen, onClose }: HospitalsProps) {
                           {hospital.location}
                         </p>
                       </div>
-                      <span className="bg-sky-100 text-sky-800 dark:bg-sky-900 dark:text-sky-200 text-xs px-2 py-1 rounded">
+                      <span className="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 text-xs px-2 py-1 rounded">
                         {hospital.accreditation}
                       </span>
                     </div>

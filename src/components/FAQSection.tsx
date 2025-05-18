@@ -70,7 +70,7 @@ export default function FAQSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            Frequently Asked <span className="text-sky-600 dark:text-sky-400">Questions</span>
+            Frequently Asked <span className="text-blue-600 dark:text-blue-400">Questions</span>
           </h2>
           <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
             Find answers to common questions about our services and how we can help with your healthcare needs.

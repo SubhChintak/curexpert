@@ -54,10 +54,10 @@ export default function Contact() {
     // <section id="contact" className="py-16 bg-gray-100 dark:bg-gray-950 text-gray-900 dark:text-white">
     
     <section id="contact" className="py-16 bg-white dark:bg-black text-gray-900 dark:text-white">
-    {/* <section id="contact" className="py-16 bg-sky-400 dark:bg-black text-gray-900 dark:text-white"> */}
+    {/* <section id="contact" className="py-16 bg-blue-400 dark:bg-black text-gray-900 dark:text-white"> */}
       <div className="container mx-auto px-4 sm:px-6">
         <div className="text-left mb-12">
-          <h2 className="text-4xl font-bold mb-4 inline-block border-b-4 border-sky-400 pb-2">
+          <h2 className="text-4xl font-bold mb-4 inline-block border-b-4 border-blue-400 pb-2">
             Get In Touch
           </h2>
           
@@ -73,14 +73,14 @@ export default function Contact() {
             <div className="flex flex-wrap gap-4 mb-12">
               <Button 
                 onClick={handleCall}
-                className="bg-sky-600 hover:bg-sky-700 text-white px-6 py-3 rounded-md shadow-lg hover:shadow-xl transition-all"
+                className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md shadow-lg hover:shadow-xl transition-all"
               >
                 <Phone className="mr-2 h-5 w-5" /> Call Now
               </Button>
               
               <Button 
                 onClick={handleWhatsApp}
-                className="bg-transparent hover:bg-healthcare-900/20 border-2 border-sky-500 text-gray-900 dark:text-white px-6 py-3 rounded-md shadow-md hover:shadow-lg transition-all"
+                className="bg-transparent hover:bg-healthcare-900/20 border-2 border-blue-500 text-gray-900 dark:text-white px-6 py-3 rounded-md shadow-md hover:shadow-lg transition-all"
               >
                 <MessageSquare className="mr-2 h-5 w-5" /> WhatsApp
               </Button>
@@ -88,7 +88,7 @@ export default function Contact() {
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
                   <Button 
-                    className="bg-transparent hover:bg-healthcare-900/20 border-2 border-sky-500 text-gray-900 dark:text-white px-6 py-3 rounded-md shadow-md hover:shadow-lg transition-all"
+                    className="bg-transparent hover:bg-healthcare-900/20 border-2 border-blue-500 text-gray-900 dark:text-white px-6 py-3 rounded-md shadow-md hover:shadow-lg transition-all"
                   >
                     <MapPin className="mr-2 h-5 w-5" /> Get Directions <ChevronDown className="ml-2 h-4 w-4" />
                   </Button>
@@ -98,13 +98,13 @@ export default function Contact() {
                     className="flex items-center p-2 cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 rounded-md"
                     onClick={() => handleGetDirections(locations.agartala)}
                   >
-                    <MapPin className="mr-2 h-4 w-4 text-sky-600" /> Agartala
+                    <MapPin className="mr-2 h-4 w-4 text-blue-600" /> Agartala
                   </DropdownMenuItem>
                   <DropdownMenuItem 
                     className="flex items-center p-2 cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 rounded-md"
                     onClick={() => handleGetDirections(locations.udaipur)}
                   >
-                    <MapPin className="mr-2 h-4 w-4 text-sky-600" /> Udaipur
+                    <MapPin className="mr-2 h-4 w-4 text-blue-600" /> Udaipur
                   </DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
@@ -154,14 +154,14 @@ export default function Contact() {
               <Button 
                 variant={selectedLocation === 'agartala' ? 'default' : 'outline'}
                 onClick={() => handleSelectLocation('agartala')}
-                className={`px-4 py-2 ${selectedLocation === 'agartala' ? 'bg-sky-600 text-white' : 'border-sky-500'}`}
+                className={`px-4 py-2 ${selectedLocation === 'agartala' ? 'bg-blue-600 text-white' : 'border-blue-500'}`}
               >
                 <MapPin className="mr-2 h-4 w-4" /> Agartala
               </Button>
               <Button 
                 variant={selectedLocation === 'udaipur' ? 'default' : 'outline'}
                 onClick={() => handleSelectLocation('udaipur')}
-                className={`px-4 py-2  ${selectedLocation === 'udaipur' ? 'bg-sky-600 text-white' : 'border-sky-500'}`}
+                className={`px-4 py-2  ${selectedLocation === 'udaipur' ? 'bg-blue-600 text-white' : 'border-blue-500'}`}
               >
                 <MapPin className="mr-2 h-4 w-4" /> Udaipur
               </Button>

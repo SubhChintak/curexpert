@@ -77,7 +77,7 @@ export default function Navbar() {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-sky-750/90 dark:bg-sky-750/95 backdrop-blur-md border-b border-sky-800/50 dark:border-sky-800/50 shadow-md">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-blue-750/90 dark:bg-blue-750/95 backdrop-blur-md border-b border-blue-800/50 dark:border-blue-800/50 shadow-md">
       <div className="container mx-auto px-4 sm:px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
@@ -95,7 +95,7 @@ export default function Navbar() {
               // style={{ cursor: 'pointer' }}
             >
               {/* CureXpert */}
-              <a href="/#" className="font-bold text-xl sm:text-2xl text-red-600">Cure</a><a href="/#" className=" font-bold text-xl sm:text-2xl text-sky-500">Xpert</a>
+              <a href="/#" className="font-bold text-xl sm:text-2xl text-red-500">Cure</a><a href="/#" className=" font-bold text-xl sm:text-2xl text-blue-500">Xpert</a>
             </div>
           </div>
 
@@ -106,17 +106,17 @@ export default function Navbar() {
               <NavigationMenu>
                 <NavigationMenuList>
                   <NavigationMenuItem>
-                    <NavigationMenuTrigger className="bg-transparent hover:bg-sky-900 hover:text-sky-400 text-sky-300">Services</NavigationMenuTrigger>
+                    <NavigationMenuTrigger className="bg-transparent hover:bg-blue-900 hover:text-blue-400 text-blue-300">Services</NavigationMenuTrigger>
                     <NavigationMenuContent className="navigation-dropdown">
-                      <div className="p-6 bg-sky-950 border border-sky-800 rounded-md shadow-xl w-[650px]">
-                        <div className="mb-6 pb-4 border-b border-sky-800">
-                          <h3 className="text-sky-400 font-semibold mb-3">Premium Services</h3>
+                      <div className="p-6 bg-blue-950 border border-blue-800 rounded-md shadow-xl w-[650px]">
+                        <div className="mb-6 pb-4 border-b border-blue-800">
+                          <h3 className="text-blue-400 font-semibold mb-3">Premium Services</h3>
                           <ul className="grid grid-cols-1 gap-3">
                             {services.filter(s => s.isPremium).map((service) => (
                               <li key={service.id}>
                                 <button
                                   onClick={() => handleServiceClick(service.id)}
-                                  className="block select-none p-2 rounded-md leading-none no-underline outline-none transition-colors hover:bg-sky-900 text-white hover:text-sky-400 w-full text-left"
+                                  className="block select-none p-2 rounded-md leading-none no-underline outline-none transition-colors hover:bg-blue-900 text-white hover:text-blue-400 w-full text-left"
                                 >
                                   {service.name}
                                 </button>
@@ -125,13 +125,13 @@ export default function Navbar() {
                           </ul>
                         </div>
                         <div>
-                          <h3 className="text-sky-400 font-semibold mb-3">General Services</h3>
+                          <h3 className="text-blue-400 font-semibold mb-3">General Services</h3>
                           <ul className="grid grid-cols-3 gap-3">
                             {services.filter(s => !s.isPremium).map((service) => (
                               <li key={service.id}>
                                 <button
                                   onClick={() => handleServiceClick(service.id)}
-                                  className="block select-none p-2 rounded-md leading-none no-underline outline-none transition-colors hover:bg-sky-900 text-white hover:text-sky-400 w-full text-left"
+                                  className="block select-none p-2 rounded-md leading-none no-underline outline-none transition-colors hover:bg-blue-900 text-white hover:text-blue-400 w-full text-left"
                                 >
                                   {service.name}
                                 </button>
@@ -151,14 +151,14 @@ export default function Navbar() {
               <NavigationMenu>
                 <NavigationMenuList>
                   <NavigationMenuItem>
-                    <NavigationMenuTrigger className="bg-transparent hover:bg-sky-900 hover:text-sky-400 text-sky-300">Specialties</NavigationMenuTrigger>
+                    <NavigationMenuTrigger className="bg-transparent hover:bg-blue-900 hover:text-blue-400 text-blue-300">Specialties</NavigationMenuTrigger>
                     <NavigationMenuContent className="navigation-dropdown">
-                      <ul className="grid grid-cols-3 gap-3 p-6 w-[550px] bg-sky-950 border border-sky-800 rounded-md shadow-xl">
+                      <ul className="grid grid-cols-3 gap-3 p-6 w-[550px] bg-blue-950 border border-blue-800 rounded-md shadow-xl">
                         {specialties.map((specialty) => (
                           <li key={specialty.id}>
                             <button
                               onClick={() => handleSpecialtyClick(specialty.id)}
-                              className="block select-none p-3 rounded-md leading-none no-underline outline-none transition-colors hover:bg-sky-900 text-white hover:text-sky-400 w-full text-left"
+                              className="block select-none p-3 rounded-md leading-none no-underline outline-none transition-colors hover:bg-blue-900 text-white hover:text-blue-400 w-full text-left"
                             >
                               <div className="text-sm font-medium leading-none">{specialty.name}</div>
                             </button>
@@ -173,18 +173,18 @@ export default function Navbar() {
             
             <a
               href="/#"
-              className="text-sky-300 hover:text-sky-400 transition-colors"
+              className="text-blue-300 hover:text-blue-400 transition-colors"
             >
               About
             </a>
             <a
               href="/#contact"
-              className="text-sky-300 hover:text-sky-400 transition-colors"
+              className="text-blue-300 hover:text-blue-400 transition-colors"
             >
               Contact
             </a>
             <ThemeToggle />
-            <Button className="bg-sky-500 hover:bg-sky-600 text-sky-950 font-semibold">
+            <Button className="bg-blue-500 hover:bg-blue-600 text-blue-950 font-semibold">
               Book Appointment
             </Button>
           </nav>
@@ -194,7 +194,7 @@ export default function Navbar() {
             <ThemeToggle />
             <button
               onClick={toggleMenu}
-              className="text-sky-300 hover:text-sky-400"
+              className="text-blue-300 hover:text-blue-400"
               aria-label="Toggle menu"
             >
               {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -204,13 +204,13 @@ export default function Navbar() {
 
         {/* Mobile Navigation Menu */}
         {isMenuOpen && (
-          <div className="md:hidden mt-4 py-4 border-t border-sky-800">
+          <div className="md:hidden mt-4 py-4 border-t border-blue-800">
             <nav className="flex flex-col space-y-4">
               {/* Services dropdown for mobile */}
               <div>
                 <button
                   onClick={toggleServices}
-                  className="flex items-center justify-between w-full text-left text-sky-300 hover:text-sky-400 transition-colors"
+                  className="flex items-center justify-between w-full text-left text-blue-300 hover:text-blue-400 transition-colors"
                 >
                   <span>Services</span>
                   {isServicesOpen ? (
@@ -223,11 +223,11 @@ export default function Navbar() {
                 {isServicesOpen && (
                   <div className="pl-4 mt-2 space-y-2">
                     <div className="mb-2">
-                      <h4 className="text-sky-400 font-semibold mb-1 text-sm">Premium Services</h4>
+                      <h4 className="text-blue-400 font-semibold mb-1 text-sm">Premium Services</h4>
                       {services.filter(s => s.isPremium).map((service) => (
                         <button
                           key={service.id}
-                          className="block text-white hover:text-sky-400 transition-colors py-1 w-full text-left"
+                          className="block text-white hover:text-blue-400 transition-colors py-1 w-full text-left"
                           onClick={() => handleServiceClick(service.id)}
                         >
                           {service.name}
@@ -235,11 +235,11 @@ export default function Navbar() {
                       ))}
                     </div>
                     <div>
-                      <h4 className="text-sky-400 font-semibold mb-1 text-sm">General Services</h4>
+                      <h4 className="text-blue-400 font-semibold mb-1 text-sm">General Services</h4>
                       {services.filter(s => !s.isPremium).map((service) => (
                         <button
                           key={service.id}
-                          className="block text-white hover:text-sky-400 transition-colors py-1 w-full text-left"
+                          className="block text-white hover:text-blue-400 transition-colors py-1 w-full text-left"
                           onClick={() => handleServiceClick(service.id)}
                         >
                           {service.name}
@@ -254,7 +254,7 @@ export default function Navbar() {
               <div>
                 <button
                   onClick={toggleSpecialties}
-                  className="flex items-center justify-between w-full text-left text-sky-300 hover:text-sky-400 transition-colors"
+                  className="flex items-center justify-between w-full text-left text-blue-300 hover:text-blue-400 transition-colors"
                 >
                   <span>Specialties</span>
                   {isSpecialtiesOpen ? (
@@ -269,7 +269,7 @@ export default function Navbar() {
                     {specialties.map((specialty) => (
                       <button
                         key={specialty.id}
-                        className="block text-white hover:text-sky-400 transition-colors py-1 w-full text-left"
+                        className="block text-white hover:text-blue-400 transition-colors py-1 w-full text-left"
                         onClick={() => handleSpecialtyClick(specialty.id)}
                       >
                         {specialty.name}
@@ -281,19 +281,19 @@ export default function Navbar() {
               
               <a
                 href="/#"
-                className="text-sky-300 hover:text-sky-400 transition-colors"
+                className="text-blue-300 hover:text-blue-400 transition-colors"
                 onClick={toggleMenu}
               >
                 About
               </a>
               <a
                 href="/#contact"
-                className="text-sky-300 hover:text-sky-400 transition-colors"
+                className="text-blue-300 hover:text-blue-400 transition-colors"
                 onClick={toggleMenu}
               >
                 Contact
               </a>
-              <Button onClick={handleWhatsApp} className="bg-sky-500 hover:bg-sky-600 text-sky-950 font-semibold w-full">
+              <Button onClick={handleWhatsApp} className="bg-blue-500 hover:bg-blue-600 text-blue-950 font-semibold w-full">
                 Book Appointment
               </Button>
             </nav>

@@ -111,7 +111,7 @@ export default function PatientTestimonials() {
       <div className="container mx-auto px-4 sm:px-6 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            What Our <span className="text-sky-600 dark:text-sky-400">Patients</span> Say
+            What Our <span className="text-blue-600 dark:text-blue-400">Patients</span> Say
           </h2>
           <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
             Hear from patients who recommend our services.

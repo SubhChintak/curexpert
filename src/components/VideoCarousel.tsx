@@ -62,7 +62,7 @@ export default function VideoCarousel() {
   return (
      <section className="py-20 bg-white dark:bg-black overflow-hidden w-full">
 
-    {/* <section className="py-20 bg-sky-400 dark:bg-black overflow-hidden w-full"> */}
+    {/* <section className="py-20 bg-blue-400 dark:bg-black overflow-hidden w-full"> */}
       <div className="container mx-auto px-4 sm:px-6 relative z-10">
         <motion.div 
           className="text-center mb-16"
@@ -72,7 +72,7 @@ export default function VideoCarousel() {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            Featured <span className="text-sky-600 dark:text-sky-400">Videos</span>
+            Featured <span className="text-blue-600 dark:text-blue-400">Videos</span>
           </h2>
           <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
             Watch our collection of informative videos about healthcare services and patient experiences.
@@ -110,7 +110,7 @@ export default function VideoCarousel() {
                             backgroundPosition: 'center'
                           }}
                         >
-                          {/* <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-sky-800/80 to-sky-600/80 hover:from-sky-800/70 hover:to-sky-600/70 transition-all duration-300"> */}
+                          {/* <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-blue-800/80 to-blue-600/80 hover:from-blue-800/70 hover:to-blue-600/70 transition-all duration-300"> */}
                           <div className="absolute inset-0 flex items-center justify-center transition-all duration-300">
                             <button
                               className="bg-white/20 hover:bg-white/30 text-white p-4 rounded-full backdrop-blur-sm transition-all duration-300 transform hover:scale-110"
@@ -168,15 +168,15 @@ export default function VideoCarousel() {
             ))}
           </CarouselContent>
           <div className="flex justify-center mt-8 gap-4">
-            <CarouselPrevious className="static translate-y-0 mr-2 bg-sky-500 text-white hover:bg-sky-600 border-none" />
-            <CarouselNext className="static translate-y-0 ml-2 bg-sky-500 text-white hover:bg-sky-600 border-none" />
+            <CarouselPrevious className="static translate-y-0 mr-2 bg-blue-500 text-white hover:bg-blue-600 border-none" />
+            <CarouselNext className="static translate-y-0 ml-2 bg-blue-500 text-white hover:bg-blue-600 border-none" />
           </div>
         </Carousel>
       </div>
       
       {/* Background decorative elements */}
-      {/* <div className="absolute top-0 right-0 -mr-40 -mt-40 w-96 h-96 rounded-full bg-sky-100/50 dark:bg-sky-900/20 blur-3xl z-0"></div>
-      <div className="absolute bottom-0 left-0 -ml-40 -mb-40 w-96 h-96 rounded-full bg-sky-100/50 dark:bg-sky-900/20 blur-3xl z-0"></div> */}
+      {/* <div className="absolute top-0 right-0 -mr-40 -mt-40 w-96 h-96 rounded-full bg-blue-100/50 dark:bg-blue-900/20 blur-3xl z-0"></div>
+      <div className="absolute bottom-0 left-0 -ml-40 -mb-40 w-96 h-96 rounded-full bg-blue-100/50 dark:bg-blue-900/20 blur-3xl z-0"></div> */}
     </section>
   );
 }

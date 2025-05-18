@@ -160,7 +160,7 @@ export default function SpecialtiesSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            Medical <span className="text-sky-600 dark:text-sky-400">Specialties</span>
+            Medical <span className="text-blue-600 dark:text-blue-400">Specialties</span>
           </h2>
           <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
             Find the right specialist for your healthcare needs. We connect you with experienced doctors across various medical specialties.
@@ -195,11 +195,11 @@ export default function SpecialtiesSection() {
               />
               
               {/* Full overlay with gradient for entire card */}
-              <div className="absolute inset-0 bg-gradient-to-t from-sky-800/80 via-sky-700/40 to-transparent transition-opacity group-hover:opacity-90" />
+              <div className="absolute inset-0 bg-gradient-to-t from-blue-800/80 via-blue-700/40 to-transparent transition-opacity group-hover:opacity-90" />
               
               {/* Glassmorphism headline container */}
               <div className="absolute bottom-0 left-0 right-0 p-3">
-                <div className="backdrop-blur-md bg-sky-900/90 dark:bg-sky-900/90 rounded-lg p-2 border border-white/10 shadow-lg">
+                <div className="backdrop-blur-md bg-blue-900/90 dark:bg-blue-900/90 rounded-lg p-2 border border-white/90 shadow-lg">
                   <h3 className="text-white text-base sm:text-lg font-bold tracking-wide text-center">
                     {specialty.name}
                   </h3>
@@ -213,7 +213,7 @@ export default function SpecialtiesSection() {
           <div className="mt-10 text-center">
             <Button 
               onClick={toggleShowAllSpecialties}
-              className="bg-sky-600 hover:bg-sky-700 text-white px-6 py-2 rounded-md shadow-lg hover:shadow-lg transition-all flex items-center space-x-2"
+              className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md shadow-lg hover:shadow-lg transition-all flex items-center space-x-2"
             >
               <span>{showAllSpecialties ? "Show Less" : "View More Specialties"}</span>
               {showAllSpecialties ? <ChevronUp className="h-5 w-5" /> : <ChevronDown className="h-5 w-5" />}

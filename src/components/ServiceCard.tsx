@@ -31,7 +31,7 @@ export default function ServiceCard({ id, title, description, icon: Icon, isPrem
       className={cn(
         "p-6 rounded-xl cursor-pointer transition-all duration-300",
         isPremium 
-          ? "bg-gradient-to-br from-sky-950 to-sky-900 dark:from-sky-950 dark:to-sky-900 border border-sky-800 dark:border-sky-800 shadow-lg"
+          ? "bg-gradient-to-br from-blue-950 to-blue-900 dark:from-blue-950 dark:to-blue-900 border border-blue-800 dark:border-blue-800 shadow-lg"
           : "bg-stone-200 dark:bg-gray-800 border border-gray-100 dark:border-gray-700"
       )}
       onClick={handleClick}
@@ -39,7 +39,7 @@ export default function ServiceCard({ id, title, description, icon: Icon, isPrem
       <div className={cn(
         "w-14 h-14 rounded-full flex items-center justify-center mb-4",
         isPremium 
-          ? "bg-sky-900 dark:bg-sky-900 text-sky-400"
+          ? "bg-blue-900 dark:bg-blue-900 text-blue-400"
           : "bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300"
       )}>
         <Icon className="w-7 h-7" />
@@ -48,7 +48,7 @@ export default function ServiceCard({ id, title, description, icon: Icon, isPrem
       <h3 className={cn(
         "font-semibold text-lg mb-2",
         isPremium 
-          ? "text-sky-400" 
+          ? "text-blue-400" 
           : "text-gray-800 dark:text-white"
       )}>
         {title}
@@ -59,7 +59,7 @@ export default function ServiceCard({ id, title, description, icon: Icon, isPrem
       </p>
       
       {isPremium && (
-        <div className="mt-4 text-xs text-sky-400 font-semibold flex items-center">
+        <div className="mt-4 text-xs text-blue-400 font-semibold flex items-center">
           <span>Premium Service</span>
           <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>

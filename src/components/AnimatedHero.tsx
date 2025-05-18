@@ -50,7 +50,7 @@ const AnimatedHero = () => {
               >
                 Your Health Journey<br />
                 <motion.span 
-                  className="text-sky-500"
+                  className="text-blue-500"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ duration: 0.8, delay: 1.3 }}
@@ -88,7 +88,7 @@ const AnimatedHero = () => {
                 transition={{ duration: 0.6, delay: 1.6 }}
               >
                 <Button 
-                  className="bg-sky-600 hover:bg-sky-700 text-white px-6 py-6 rounded-md text-lg shadow-lg hover:shadow-teal-700/20 transition-all duration-300 group w-full sm:w-auto"
+                  className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-6 rounded-md text-lg shadow-lg hover:shadow-teal-700/20 transition-all duration-300 group w-full sm:w-auto"
                 >
                   <span><a href="#services">Explore Our Services</a></span>
                   <motion.div 

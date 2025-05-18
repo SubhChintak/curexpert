@@ -88,7 +88,7 @@ export default function PartnersSection() {
   return (
     <section className="py-20 bg-white dark:bg-black">
 
-    {/* <section className="py-20 bg-sky-400 dark:bg-black"> */}
+    {/* <section className="py-20 bg-blue-400 dark:bg-black"> */}
       <div className="container mx-auto px-4 sm:px-6">
         <motion.div 
           className="text-center mb-16"
@@ -98,7 +98,7 @@ export default function PartnersSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            Our Trusted <span className="text-sky-600 dark:text-sky-400">Partners</span>
+            Our Trusted <span className="text-blue-600 dark:text-blue-400">Partners</span>
           </h2>
           <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
             We collaborate with leading hospitals, clinics, and diagnostic centers across India to ensure you receive the best healthcare services.
@@ -129,7 +129,7 @@ export default function PartnersSection() {
                       <h3 className="text-center font-medium text-gray-900 dark:text-white">
                         {partner.name}
                       </h3>
-                      <span className="text-xs text-sky-600 dark:text-sky-400 uppercase tracking-wider mt-1">
+                      <span className="text-xs text-blue-600 dark:text-blue-400 uppercase tracking-wider mt-1">
                         {partner.type}
                       </span>
                     </div>

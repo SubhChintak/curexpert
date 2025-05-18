@@ -257,7 +257,7 @@ export default function ServiceDetail() {
     if (serviceId === "clinics") {
       return (
         <div className="mt-10">
-          <h2 className="text-2xl font-bold mb-6 text-sky-400 dark:text-sky-400">Our Specialist Doctors</h2>
+          <h2 className="text-2xl font-bold mb-6 text-blue-400 dark:text-blue-400">Our Specialist Doctors</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {doctors.map((doctor) => (
               <Card key={doctor.id} className="overflow-hidden hover:shadow-lg transition-shadow">
@@ -269,7 +269,7 @@ export default function ServiceDetail() {
                   />
                 </div>
                 <CardHeader className="p-4">
-                  <CardTitle className="text-lg text-sky-600 dark:text-sky-400">{doctor.name}</CardTitle>
+                  <CardTitle className="text-lg text-blue-600 dark:text-blue-400">{doctor.name}</CardTitle>
                   <CardDescription className="flex items-center">
                     <Stethoscope className="h-4 w-4 mr-1" /> {doctor.specialty}
                   </CardDescription>
@@ -287,10 +287,10 @@ export default function ServiceDetail() {
                     <Phone className="h-4 w-4 mr-1 mt-0.5 text-gray-500" />
                     <span>{doctor.contact}</span>
                   </div>
-                  <Badge className="bg-sky-100 text-sky-800 hover:bg-sky-200 mt-2">{doctor.experience}</Badge>
+                  <Badge className="bg-blue-100 text-blue-800 hover:bg-blue-200 mt-2">{doctor.experience}</Badge>
                 </CardContent>
                 <CardFooter className="p-4 pt-0">
-                  <Button className="w-full bg-sky-600 hover:bg-sky-700">Book Appointment</Button>
+                  <Button className="w-full bg-blue-600 hover:bg-blue-700">Book Appointment</Button>
                 </CardFooter>
               </Card>
             ))}
@@ -300,7 +300,7 @@ export default function ServiceDetail() {
     } else if (serviceId === "diagnostics") {
       return (
         <div className="mt-10">
-          <h2 className="text-2xl font-bold mb-6 text-sky-400 dark:text-sky-400">Our Diagnostic Centers</h2>
+          <h2 className="text-2xl font-bold mb-6 text-blue-400 dark:text-blue-400">Our Diagnostic Centers</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {diagnosticCenters.map((center) => (
               <Card key={center.id} className="overflow-hidden hover:shadow-lg transition-shadow">
@@ -312,7 +312,7 @@ export default function ServiceDetail() {
                   />
                 </div>
                 <CardHeader className="p-4">
-                  <CardTitle className="text-lg text-sky-600 dark:text-sky-400">{center.name}</CardTitle>
+                  <CardTitle className="text-lg text-blue-600 dark:text-blue-400">{center.name}</CardTitle>
                   <CardDescription className="flex items-center">
                     <MapPin className="h-4 w-4 mr-1" /> {center.location}
                   </CardDescription>
@@ -325,7 +325,7 @@ export default function ServiceDetail() {
                         <Badge 
                           key={idx} 
                           variant="outline" 
-                          className="bg-sky-50 text-sky-700 border-sky-200 text-xs"
+                          className="bg-blue-50 text-blue-700 border-blue-200 text-xs"
                         >
                           {service}
                         </Badge>
@@ -342,7 +342,7 @@ export default function ServiceDetail() {
                   </div>
                 </CardContent>
                 <CardFooter className="p-4 pt-0">
-                  <Button className="w-full bg-sky-600 hover:bg-sky-700">Book Test</Button>
+                  <Button className="w-full bg-blue-600 hover:bg-blue-700">Book Test</Button>
                 </CardFooter>
               </Card>
             ))}
@@ -352,7 +352,7 @@ export default function ServiceDetail() {
     } else if (serviceId === "hospitals") {
       return (
         <div className="mt-10">
-          <h2 className="text-2xl font-bold mb-6 text-sky-400 dark:text-sky-400">Our Partner Hospitals</h2>
+          <h2 className="text-2xl font-bold mb-6 text-blue-400 dark:text-blue-400">Our Partner Hospitals</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {hospitals.map((hospital) => (
               <Card key={hospital.id} className="overflow-hidden hover:shadow-lg transition-shadow">
@@ -364,7 +364,7 @@ export default function ServiceDetail() {
                   />
                 </div>
                 <CardHeader className="p-4">
-                  <CardTitle className="text-lg text-sky-600 dark:text-sky-400 flex items-center">
+                  <CardTitle className="text-lg text-blue-600 dark:text-blue-400 flex items-center">
                     <Hospital className="h-5 w-5 mr-2" />
                     {hospital.name}
                   </CardTitle>
@@ -380,7 +380,7 @@ export default function ServiceDetail() {
                         <Badge 
                           key={idx} 
                           variant="outline" 
-                          className="bg-sky-50 text-sky-700 border-sky-200 text-xs"
+                          className="bg-blue-50 text-blue-700 border-blue-200 text-xs"
                         >
                           {specialty}
                         </Badge>
@@ -412,7 +412,7 @@ export default function ServiceDetail() {
                   </div>
                 </CardContent>
                 <CardFooter className="p-4 pt-0">
-                  <Button className="w-full bg-sky-600 hover:bg-sky-700">View Hospital</Button>
+                  <Button className="w-full bg-blue-600 hover:bg-blue-700">View Hospital</Button>
                 </CardFooter>
               </Card>
             ))}
@@ -428,12 +428,12 @@ export default function ServiceDetail() {
     return (
       <div className={`rounded-xl mt-10 shadow-lg p-6 md:p-8 ${
         serviceInfo.isPremium 
-          ? "bg-gradient-to-br from-sky-950 to-sky-900 text-white" 
+          ? "bg-gradient-to-br from-blue-950 to-blue-900 text-white" 
           : "bg-white dark:bg-gray-800"
       }`}>
         <h2 className={`text-2xl font-bold mb-4 ${
           serviceInfo.isPremium 
-            ? "text-sky-400" 
+            ? "text-blue-400" 
             : "text-gray-900 dark:text-white"
         }`}>
           About {serviceInfo.title}
@@ -449,12 +449,12 @@ export default function ServiceDetail() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
           <div className={`p-6 rounded-lg ${
             serviceInfo.isPremium 
-              ? "bg-sky-900/50 border border-sky-800" 
+              ? "bg-blue-900/50 border border-blue-800" 
               : "bg-gray-50 dark:bg-gray-700"
           }`}>
             <h3 className={`text-lg font-semibold mb-3 ${
               serviceInfo.isPremium 
-                ? "text-sky-400" 
+                ? "text-blue-400" 
                 : "text-gray-800 dark:text-white"
             }`}>Key Features</h3>
             <ul className={`list-disc pl-5 space-y-2 ${
@@ -480,12 +480,12 @@ export default function ServiceDetail() {
           
           <div className={`p-6 rounded-lg ${
             serviceInfo.isPremium 
-              ? "bg-sky-900/50 border border-sky-800" 
+              ? "bg-blue-900/50 border border-blue-800" 
               : "bg-gray-50 dark:bg-gray-700"
           }`}>
             <h3 className={`text-lg font-semibold mb-3 ${
               serviceInfo.isPremium 
-                ? "text-sky-400" 
+                ? "text-blue-400" 
                 : "text-gray-800 dark:text-white"
             }`}>How It Works</h3>
             <ol className={`list-decimal pl-5 space-y-2 ${
@@ -513,8 +513,8 @@ export default function ServiceDetail() {
         <div className="mt-8">
           <Button className={`px-6 py-2 ${
             serviceInfo.isPremium 
-              ? "bg-sky-500 hover:bg-sky-600 text-sky-950 font-semibold" 
-              : "bg-sky-600 hover:bg-sky-700 text-white"
+              ? "bg-blue-500 hover:bg-blue-600 text-blue-950 font-semibold" 
+              : "bg-blue-600 hover:bg-blue-700 text-white"
           }`}>
             Book This Service
           </Button>
@@ -528,13 +528,13 @@ export default function ServiceDetail() {
       <div className="min-h-screen flex flex-col">
         <Navbar />
         
-        <div className={`py-12 pt-24 ${serviceInfo.isPremium ? 'bg-gradient-to-b from-sky-950 to-sky-900' : ''}`}>
+        <div className={`py-12 pt-24 ${serviceInfo.isPremium ? 'bg-gradient-to-b from-blue-950 to-blue-900' : ''}`}>
           <div className="container mx-auto px-4">
             {/* <div className="flex items-center mb-8">
               <Link to="/" className={`flex items-center ${
                 serviceInfo.isPremium 
-                  ? "text-sky-400 hover:text-sky-300" 
-                  : "text-sky-600 hover:text-sky-700 dark:text-sky-400 dark:hover:text-sky-300"
+                  ? "text-blue-400 hover:text-blue-300" 
+                  : "text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300"
               } transition-colors`}>
                 <ArrowLeft className="mr-2 h-5 w-5" />
                 Back to Home
@@ -549,7 +549,7 @@ export default function ServiceDetail() {
             >
               <h1 className={`text-3xl md:text-4xl font-bold mb-2 ${
                 serviceInfo.isPremium 
-                  ? "text-sky-400" 
+                  ? "text-blue-400" 
                   : "text-gray-900 dark:text-white"
               }`}>
                 {serviceInfo.title}
@@ -575,7 +575,7 @@ export default function ServiceDetail() {
                   Service details not found. Please return to the home page.
                 </p>
                 <Link to="/">
-                  <Button className="mt-6 bg-sky-500 hover:bg-sky-600 text-sky-950 font-semibold">
+                  <Button className="mt-6 bg-blue-500 hover:bg-blue-600 text-blue-950 font-semibold">
                     Return to Home
                   </Button>
                 </Link>

@@ -69,7 +69,7 @@ export default function DoctorTestimonials() {
       <div className="container mx-auto px-4 sm:px-6 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            What Medical <span className="text-sky-600 dark:text-sky-400">Professionals</span> Say
+            What Medical <span className="text-blue-600 dark:text-blue-400">Professionals</span> Say
           </h2>
           <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
             Hear from doctors who recommend our services to their patients.
@@ -89,22 +89,22 @@ export default function DoctorTestimonials() {
                 <Card className="bg-stone-200 dark:bg-gray-800/80 backdrop-blur-sm shadow-xl border border-gray-100 dark:border-gray-700 h-full flex flex-col">
                   <CardContent className="p-6">
                     <div className="relative mb-8">
-                      <QuoteIcon className="absolute -top-3 -left-2 w-8 h-8 text-sky-900 dark:text-sky-400 opacity-50" />
+                      <QuoteIcon className="absolute -top-3 -left-2 w-8 h-8 text-blue-900 dark:text-blue-400 opacity-50" />
                       <p className="text-gray-600 dark:text-gray-300 leading-relaxed z-10 relative pl-4">
                         {doctor.testimonial}
                       </p>
                     </div>
                     
                     <div className="flex items-center mt-auto pt-4 border-t border-gray-100 dark:border-gray-700">
-                      <Avatar className="h-12 w-12 border-2 border-healthcare-100 dark:border-sky-800 shadow-md">
+                      <Avatar className="h-12 w-12 border-2 border-healthcare-100 dark:border-blue-800 shadow-md">
                         <AvatarImage src={doctor.image} alt={doctor.name} />
-                        <AvatarFallback className="bg-healthcare-100 text-sky-600 font-bold text-xl dark:bg-sky-900 dark:text-sky-400">
+                        <AvatarFallback className="bg-healthcare-100 text-blue-600 font-bold text-xl dark:bg-blue-900 dark:text-blue-400">
                           {doctor.name.split(' ').map(n => n[0]).join('')}
                         </AvatarFallback>
                       </Avatar>
                       <div className="ml-4">
                         <h4 className="font-semibold text-gray-900 dark:text-white">{doctor.name}</h4>
-                        <p className="text-sky-600 dark:text-sky-400 text-sm">{doctor.specialty}</p>
+                        <p className="text-blue-600 dark:text-blue-400 text-sm">{doctor.specialty}</p>
                         <p className="text-gray-500 dark:text-gray-400 text-xs">{doctor.degrees}</p>
                       </div>
                     </div>
@@ -114,8 +114,8 @@ export default function DoctorTestimonials() {
             ))}
           </CarouselContent>
           <div className="flex justify-center mt-8 gap-4">
-            <CarouselPrevious className="static translate-y-0 mr-2 bg-sky-500 text-white hover:bg-sky-600 border-none" />
-            <CarouselNext className="static translate-y-0 ml-2 bg-sky-500 text-white hover:bg-sky-600 border-none" />
+            <CarouselPrevious className="static translate-y-0 mr-2 bg-blue-500 text-white hover:bg-blue-600 border-none" />
+            <CarouselNext className="static translate-y-0 ml-2 bg-blue-500 text-white hover:bg-blue-600 border-none" />
           </div>
         </Carousel>
       </div>

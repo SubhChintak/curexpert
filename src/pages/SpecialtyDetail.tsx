@@ -307,7 +307,7 @@ export default function SpecialtyDetail() {
         
         <div className="container mx-auto px-4 py-12 mt-16">
           {/* <div className="flex items-center mb-8">
-            <Link to="/" className="flex items-center text-sky-600 hover:text-sky-700 dark:text-sky-400 dark:hover:text-sky-300 transition-colors">
+            <Link to="/" className="flex items-center text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition-colors">
               <ArrowLeft className="mr-2 h-5 w-5" />
               Back to Home
             </Link>
@@ -319,7 +319,7 @@ export default function SpecialtyDetail() {
             transition={{ duration: 0.5 }}
           >
             <h1 className="text-3xl md:text-4xl font-bold mb-2 text-gray-900 dark:text-white">
-              <span className="text-sky-600 dark:text-sky-400">{specialtyName}</span> Specialists
+              <span className="text-blue-600 dark:text-blue-400">{specialtyName}</span> Specialists
             </h1>
             <p className="text-gray-600 dark:text-gray-300 mb-10">
               Connect with our experienced {specialtyName.toLowerCase()} specialists for quality healthcare
@@ -344,7 +344,7 @@ export default function SpecialtyDetail() {
                         className="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
                       />
                     </div>
-                    <div className="absolute top-4 right-4 bg-sky-500 text-white px-2 py-1 rounded-md text-sm font-medium">
+                    <div className="absolute top-4 right-4 bg-blue-500 text-white px-2 py-1 rounded-md text-sm font-medium">
                       {doctor.experience}
                     </div>
                   </div>
@@ -352,7 +352,7 @@ export default function SpecialtyDetail() {
                   <div className="p-6 md:w-2/3 lg:w-3/4">
                     <div className="md:flex justify-between items-start mb-4">
                       <div>
-                        <h2 className="text-2xl font-bold text-sky-600 dark:text-sky-400">
+                        <h2 className="text-2xl font-bold text-blue-600 dark:text-blue-400">
                           {doctor.name}
                         </h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-1">
@@ -361,7 +361,7 @@ export default function SpecialtyDetail() {
                         <DisplayRating rating={doctor.rating} />
                       </div>
                       
-                      <Button className="mt-4 md:mt-0 bg-sky-600 hover:bg-sky-700 text-white">
+                      <Button className="mt-4 md:mt-0 bg-blue-600 hover:bg-blue-700 text-white">
                         Book Appointment
                       </Button>
                     </div>
@@ -373,12 +373,12 @@ export default function SpecialtyDetail() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                       <div>
                         <h3 className="text-lg font-semibold mb-2 text-gray-800 dark:text-gray-200 flex items-center">
-                          <CalendarDays className="h-5 w-5 mr-2 text-sky-500" />
+                          <CalendarDays className="h-5 w-5 mr-2 text-blue-500" />
                           Weekly Availability
                         </h3>
                         <div className="flex flex-wrap gap-2">
                           {doctor.availableDates.map((day, idx) => (
-                            <Badge key={idx} variant="outline" className="bg-sky-50 dark:bg-sky-900/20 text-sky-700 dark:text-sky-300 border-sky-200 dark:border-sky-800">
+                            <Badge key={idx} variant="outline" className="bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-300 border-blue-200 dark:border-blue-800">
                               {day}
                             </Badge>
                           ))}
@@ -388,13 +388,13 @@ export default function SpecialtyDetail() {
                       {doctor.specialDates && doctor.specialDates.length > 0 && (
                         <div>
                           <h3 className="text-lg font-semibold mb-2 text-gray-800 dark:text-gray-200 flex items-center">
-                            <Calendar className="h-5 w-5 mr-2 text-sky-500" />
+                            <Calendar className="h-5 w-5 mr-2 text-blue-500" />
                             Special Dates
                           </h3>
                           <div className="space-y-2">
                             {doctor.specialDates.map((specialDate, idx) => (
-                              <div key={idx} className="text-sm border-l-2 border-sky-500 pl-3 py-1">
-                                <span className="font-medium text-sky-600 dark:text-sky-400">{specialDate.date}</span>
+                              <div key={idx} className="text-sm border-l-2 border-blue-500 pl-3 py-1">
+                                <span className="font-medium text-blue-600 dark:text-blue-400">{specialDate.date}</span>
                                 <p className="text-gray-600 dark:text-gray-400">{specialDate.note}</p>
                               </div>
                             ))}
@@ -445,7 +445,7 @@ export default function SpecialtyDetail() {
                 No specialists found for this specialty. Please check back later.
               </p>
               <Link to="/">
-                <Button className="mt-6 bg-sky-600 hover:bg-sky-700 text-white">
+                <Button className="mt-6 bg-blue-600 hover:bg-blue-700 text-white">
                   Return to Home
                 </Button>
               </Link>

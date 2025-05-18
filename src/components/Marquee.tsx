@@ -9,7 +9,7 @@ export default function Marquee({ messages }: MarqueeProps) {
   return (
     // <div className="bg-blue-950/95 dark:bg-blue-950/95 text-white py-2 overflow-hidden">
     
-     <div className="bg-sky-500 dark:bg-sky-500 text-white dark:text-white py-2 overflow-hidden text-2xl">
+     <div className="bg-blue-500 dark:bg-blue-500 text-white dark:text-white py-2 overflow-hidden text-2xl">
       <div className="relative flex whitespace-nowrap animate-marquee  min-w-max">
         {messages.map((message, index) => (
           <React.Fragment key={index}>

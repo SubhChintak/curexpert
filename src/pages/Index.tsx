@@ -162,7 +162,7 @@ const Index = () => {
 
         
 
-      {/* <div className="min-h-screen flex flex-col bg-sky-400 dark:bg-black"> */}
+      {/* <div className="min-h-screen flex flex-col bg-blue-400 dark:bg-black"> */}
         <Navbar />
 {/*         <div className="pt-20">
         <Marquee messages={marqueeMessages} />
@@ -184,7 +184,7 @@ const Index = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
               >
-                Your Health Journey, <span className="text-sky-950/95">Our Priority</span>
+                Your Health Journey, <span className="text-blue-950/95">Our Priority</span>
               </motion.h1>
               <motion.p 
                 className="text-xl font-bold mb-8 text-white/90"
@@ -239,8 +239,8 @@ const Index = () => {
               viewport={{ once: true }}
             >
               <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-              Our Healthcare <span className="text-sky-600 dark:text-sky-400">Services</span>
-              {/* <Cover className="text-sky-600 dark:text-sky-400">Services </Cover> */}
+              Our Healthcare <span className="text-blue-600 dark:text-blue-400">Services</span>
+              {/* <Cover className="text-blue-600 dark:text-blue-400">Services </Cover> */}
               </h2>
               <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
                 CureXpert India offers a comprehensive range of healthcare services to meet all your medical needs. 
@@ -272,7 +272,7 @@ const Index = () => {
               <div className="mt-10 text-center">
                 <Button 
                   onClick={toggleShowAllServices}
-                  className="bg-sky-500 hover:bg-sky-600 text-sky-950 px-6 py-6 rounded-md shadow-md hover:shadow-lg transition-all flex items-center space-x-2"
+                  className="bg-blue-500 hover:bg-blue-600 text-blue-950 px-6 py-6 rounded-md shadow-md hover:shadow-lg transition-all flex items-center space-x-2"
                 >
                   <span>{showAllServices ? "Show Less" : "View More Services"}</span>
                   {showAllServices ? <ChevronUp className="h-5 w-5" /> : <ChevronDown className="h-5 w-5" />}
@@ -288,7 +288,7 @@ const Index = () => {
         
         <section className="py-20 bg-white dark:bg-black">
 
-        {/* <section className="py-20 bg-sky-400 dark:bg-black"> */}
+        {/* <section className="py-20 bg-blue-400 dark:bg-black"> */}
           <div className="container mx-auto px-4 sm:px-6">
             <motion.div 
               className="text-center mb-16"
@@ -298,7 +298,7 @@ const Index = () => {
               viewport={{ once: true }}
             >
               <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-                Why Choose <span className="text-sky-600 dark:text-sky-400">CureXpert India</span>
+                Why Choose <span className="text-blue-600 dark:text-blue-400">CureXpert India</span>
               </h2>
               <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
                 Discover the factors that make us the preferred healthcare facilitator for patients across India.
@@ -313,8 +313,8 @@ const Index = () => {
                 transition={{ duration: 0.5, delay: 0.1 }}
                 viewport={{ once: true, amount: 0.2 }}
               >
-                <div className="bg-sky-500 dark:bg-sky-800 w-20 h-20 mx-auto rounded-full flex items-center justify-center mb-6 shadow-lg">
-                  <svg className="w-10 h-10 text-sky-900 dark:text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <div className="bg-blue-500 dark:bg-blue-800 w-20 h-20 mx-auto rounded-full flex items-center justify-center mb-6 shadow-lg">
+                  <svg className="w-10 h-10 text-blue-900 dark:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                   </svg>
                 </div>
@@ -324,7 +324,7 @@ const Index = () => {
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
                   Partner with vetted healthcare providers known for excellence and patient satisfaction.
                 </p>
-                <div className="text-3xl font-bold text-sky-600 dark:text-sky-400">
+                <div className="text-3xl font-bold text-blue-600 dark:text-blue-400">
                   <DynamicCounter end={150} suffix="+" prefix="" />
                 </div>
                 <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">Patients Served</p>
@@ -337,8 +337,8 @@ const Index = () => {
                 transition={{ duration: 0.5, delay: 0.2 }}
                 viewport={{ once: true, amount: 0.2 }}
               >
-                <div className="bg-sky-500 dark:bg-sky-800 w-20 h-20 mx-auto rounded-full flex items-center justify-center mb-6 shadow-lg">
-                  <svg className="w-10 h-10 text-sky-900 dark:text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <div className="bg-blue-500 dark:bg-blue-800 w-20 h-20 mx-auto rounded-full flex items-center justify-center mb-6 shadow-lg">
+                  <svg className="w-10 h-10 text-blue-900 dark:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
@@ -348,7 +348,7 @@ const Index = () => {
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
                   Our dedicated team is available round-the-clock to assist with your healthcare needs.
                 </p>
-                <div className="text-3xl font-bold text-sky-600 dark:text-sky-400">
+                <div className="text-3xl font-bold text-blue-600 dark:text-blue-400">
                   <DynamicCounter end={365} suffix=" days/year" prefix="" />
                 </div>
                 <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">Always Available</p>
@@ -361,8 +361,8 @@ const Index = () => {
                 transition={{ duration: 0.5, delay: 0.3 }}
                 viewport={{ once: true, amount: 0.2 }}
               >
-                <div className="bg-sky-500 dark:bg-sky-800 w-20 h-20 mx-auto rounded-full flex items-center justify-center mb-6 shadow-lg">
-                  <svg className="w-10 h-10 text-sky-900 dark:text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <div className="bg-blue-500 dark:bg-blue-800 w-20 h-20 mx-auto rounded-full flex items-center justify-center mb-6 shadow-lg">
+                  <svg className="w-10 h-10 text-blue-900 dark:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
                   </svg>
                 </div>
@@ -372,7 +372,7 @@ const Index = () => {
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
                   Clear information about treatment costs and financial planning support.
                 </p>
-                <div className="text-3xl font-bold text-sky-600 dark:text-sky-400">
+                <div className="text-3xl font-bold text-blue-600 dark:text-blue-400">
                   <DynamicCounter end={30} suffix="%" prefix="Up to " />
                 </div>
                 <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">Cost Savings</p>
@@ -385,8 +385,8 @@ const Index = () => {
                 transition={{ duration: 0.5, delay: 0.4 }}
                 viewport={{ once: true, amount: 0.2 }}
               >
-                <div className="bg-sky-500 dark:bg-sky-800 w-20 h-20 mx-auto rounded-full flex items-center justify-center mb-6 shadow-lg">
-                  <svg className="w-10 h-10 text-sky-900 dark:text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <div className="bg-blue-500 dark:bg-blue-800 w-20 h-20 mx-auto rounded-full flex items-center justify-center mb-6 shadow-lg">
+                  <svg className="w-10 h-10 text-blue-900 dark:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                   </svg>
                 </div>
@@ -396,7 +396,7 @@ const Index = () => {
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
                 Convenient travel arrangements tailored to ensure a smooth and stress-free experience for individuals.
                 </p>
-                <div className="text-3xl font-bold text-sky-600 dark:text-sky-400">
+                <div className="text-3xl font-bold text-blue-600 dark:text-blue-400">
                   <DynamicCounter end={55} suffix="+" prefix="" />
                 </div>
                 <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">Healthcare Partners</p>
