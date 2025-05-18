@@ -23,7 +23,7 @@ export default function Footer() {
                 className="h-10 w-10 mr-2" 
               />
               <span className="font-bold text-2xl">
-                <span className="font-bold text-2xl sm:text-2xl text-red-600">Cure</span><span className=" font-bold text-2xl sm:text-2xl text-blue-500">Xpert</span>
+                <span className="font-bold text-2xl sm:text-2xl text-red-500">Cure</span><span className=" font-bold text-2xl sm:text-2xl text-blue-500">Xpert</span>
               </span>
             </div>
             <p className="text-gray-300 text-sm max-w-xs">

@@ -95,7 +95,7 @@ export default function Navbar() {
               // style={{ cursor: 'pointer' }}
             >
               {/* CureXpert */}
-              <a href="/#" className="font-bold text-xl sm:text-2xl text-red-500">Cure</a><a href="/#" className=" font-bold text-xl sm:text-2xl text-blue-500">Xpert</a>
+              <a href="/#" className="font-bold text-2xl sm:text-2xl text-red-500">Cure</a><a href="/#" className=" font-bold text-2xl sm:text-2xl text-blue-500">Xpert</a>
             </div>
           </div>
 
