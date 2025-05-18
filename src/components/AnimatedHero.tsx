@@ -15,7 +15,7 @@ const AnimatedHero = () => {
 
       <video autoPlay muted loop className="w-full h-full object-cover absolute inset-0 bg-cover bg-center opacity-160">
   <source src="/lovable-uploads/hero-video.mp4" type="video/mp4" />
-  Your browser does not support the video!
+  Your browser doesn't support the video!
 </video>
       
       {/* Overlay gradient */}
@@ -39,7 +39,7 @@ const AnimatedHero = () => {
             {/* Main headline with animation - much bigger and wider (2/3 screen) */}
             <div className="overflow-hidden mx-auto lg:mx-0 w-full lg:w-2/3">
               <motion.h1 
-                className="text-6xl sm:text-7xl md:text-8xl font-bold mb-8 leading-tight"
+                className="text-6xl sm:text-7xl md:text-8xl font-bold mt-10 mb-8 leading-tight"
                 initial={{ x: "-100%" }}
                 animate={{ x: 0 }}
                 transition={{ 
