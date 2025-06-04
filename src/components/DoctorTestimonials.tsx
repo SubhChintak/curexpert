@@ -89,14 +89,14 @@ export default function DoctorTestimonials() {
                 <Card className="bg-stone-200 dark:bg-gray-800/80 backdrop-blur-sm shadow-xl border border-gray-100 dark:border-gray-700 h-full flex flex-col">
                   <CardContent className="p-6">
                     <div className="relative mb-8">
-                      <QuoteIcon className="absolute -top-3 -left-2 w-8 h-8 text-blue-900 dark:text-blue-400 opacity-50" />
+                      {/* <QuoteIcon className="absolute -top-3 -left-2 w-8 h-8 text-blue-900 dark:text-blue-400 opacity-50" /> */}
                       <p className="text-gray-600 dark:text-gray-300 leading-relaxed z-10 relative pl-4">
                         {doctor.testimonial}
                       </p>
                     </div>
                     
                     <div className="flex items-center mt-auto pt-4 border-t border-gray-100 dark:border-gray-700">
-                      <Avatar className="h-12 w-12 border-2 border-healthcare-100 dark:border-blue-800 shadow-md">
+                      <Avatar className="h-12 w-12 border-1 border-healthcare-100 dark:border-blue-800 shadow-lg">
                         <AvatarImage src={doctor.image} alt={doctor.name} />
                         <AvatarFallback className="bg-healthcare-100 text-blue-600 font-bold text-xl dark:bg-blue-900 dark:text-blue-400">
                           {doctor.name.split(' ').map(n => n[0]).join('')}
