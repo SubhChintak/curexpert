@@ -199,7 +199,7 @@ export default function SpecialtiesSection() {
               
               {/* Glassmorphism headline container */}
               <div className="absolute bottom-0 left-0 right-0 p-3">
-                <div className="backdrop-blur-md bg-blue-900/90 dark:bg-blue-900/90 rounded-lg p-2 border border-white/90 shadow-lg">
+                <div className="backdrop-blur-md bg-blue-900/90 dark:bg-blue-900/90 rounded-lg p-2 border border-white/40 shadow-xl">
                   <h3 className="text-white text-base sm:text-lg font-bold tracking-wide text-center">
                     {specialty.name}
                   </h3>

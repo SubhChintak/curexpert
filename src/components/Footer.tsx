@@ -32,7 +32,7 @@ export default function Footer() {
             <div className="pt-4">
               <div className="flex items-center text-gray-300 mb-2">
                 <Phone className="h-4 w-4 mr-3 text-blue-400" />
-                <span>+91 9876 543210</span>
+                <span>+91 84150 45165</span>
               </div>
               <div className="flex items-center text-gray-300 mb-2">
                 <Mail className="h-4 w-4 mr-3 text-blue-400" />
@@ -106,7 +106,7 @@ export default function Footer() {
                   alt="CureXpert Logo" 
                   className="h-4 w-4 mr-1" 
                 />  */}
-                Designed and Developed by<a href="https://github.com/" className="text-sm ml-1 text-blue-400">SubhChintak.in </a>
+                Developed & Maintained by<a href="https://github.com/" className="text-sm font-semibold ml-1 text-blue-300">SubhChintak.in </a>
               </p>
             </div>
           </div>

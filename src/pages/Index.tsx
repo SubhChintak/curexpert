@@ -37,6 +37,7 @@ import { motion } from "framer-motion";
 import AnimatedHero from "@/components/AnimatedHero";
 import { Cover } from "@/components/ui/cover";
 import { Hero } from "@/components/Hero";
+import DoctorCarousel from "@/components/DoctorCarousel";
 
 const Index = () => {
   const [showAllServices, setShowAllServices] = useState(false);
@@ -225,6 +226,8 @@ const Index = () => {
         {/* <div className="pt-0">
         <Marquee messages={marqueeMessages} />
         </div> */}
+
+        <DoctorCarousel/>
         
         <SpecialtiesSection />
         

@@ -73,11 +73,11 @@ export default function Navbar() {
   };
 
   const handleWhatsApp = () => {
-    window.open("https://wa.me/918415045165?text=Hello%2C%20I%27m%20interested%20in%20learning%20more%20about%20CureXpert%20India%20services."  );
+    window.open("https://wa.me/8415045165?text=Hello%2C%20I%27m%20interested%20in%20learning%20more%20about%20CureXpert%20India%20services."  );
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-blue-750/90 dark:bg-blue-750/95 backdrop-blur-md border-b border-blue-800/50 dark:border-blue-800/50 shadow-md">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-blue-750/90 dark:bg-blue-750/95 backdrop-blur-3xl border-b border-blue-800/50 dark:border-blue-800/50 shadow-md">
       <div className="container mx-auto px-4 sm:px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
@@ -184,7 +184,7 @@ export default function Navbar() {
               Contact
             </a>
             <ThemeToggle />
-            <Button className="bg-blue-500 hover:bg-blue-600 text-blue-950 font-semibold">
+            <Button onClick={handleWhatsApp} className="bg-blue-500 hover:bg-blue-600 text-blue-950 font-semibold">
               Book Appointment
             </Button>
           </nav>
@@ -210,7 +210,7 @@ export default function Navbar() {
               <div>
                 <button
                   onClick={toggleServices}
-                  className="flex items-center justify-between w-full text-left text-blue-300 hover:text-blue-400 transition-colors"
+                  className="flex items-center justify-between w-full text-left text-blue-400 hover:text-blue-500 transition-colors font-bold"
                 >
                   <span>Services</span>
                   {isServicesOpen ? (
@@ -254,7 +254,7 @@ export default function Navbar() {
               <div>
                 <button
                   onClick={toggleSpecialties}
-                  className="flex items-center justify-between w-full text-left text-blue-300 hover:text-blue-400 transition-colors"
+                  className="flex items-center justify-between w-full text-left text-blue-400 hover:text-blue-500 transition-colors font-bold"
                 >
                   <span>Specialties</span>
                   {isSpecialtiesOpen ? (
@@ -281,14 +281,14 @@ export default function Navbar() {
               
               <a
                 href="/#"
-                className="text-blue-300 hover:text-blue-400 transition-colors"
+                className="text-blue-400 hover:text-blue-500 transition-colors font-bold"
                 onClick={toggleMenu}
               >
                 About
               </a>
               <a
                 href="/#contact"
-                className="text-blue-300 hover:text-blue-400 transition-colors"
+                className="text-blue-400 hover:text-blue-500 transition-colors font-bold"
                 onClick={toggleMenu}
               >
                 Contact

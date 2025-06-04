@@ -119,7 +119,7 @@ export default function PartnersSection() {
                 <CarouselItem key={partner.id} className="md:basis-1/3 lg:basis-1/5">
                   <div className="p-2 h-full">
                     <div className="bg-stone-200 dark:bg-gray-800 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 p-6 h-full flex flex-col items-center justify-center border border-gray-100 dark:border-gray-700">
-                      <div className="w-24 h-24 bg-gray-100 dark:bg-gray-700 border-2 border-healthcare-100 dark:border-healthcare-800 shadow-md rounded-full flex items-center justify-center mb-4 overflow-hidden">
+                      <div className="w-24 h-24 bg-gray-100 dark:bg-gray-700 border-1 border-healthcare-100 dark:border-healthcare-800 shadow-lg rounded-full flex items-center justify-center mb-4 overflow-hidden">
                         <img 
                           src={partner.logo} 
                           alt={partner.name} 
