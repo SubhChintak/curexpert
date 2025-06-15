@@ -83,7 +83,7 @@ export default function Navbar() {
           <div className="flex items-center space-x-2">
           
             <img 
-              src="/lovable-uploads/curexpert-logo.png" 
+              src="/curexpert-uploads/curexpert-logo.png" 
               alt="CureXpert Logo" 
               className="w-10 h-10"
               onClick={() => navigate('/#')}

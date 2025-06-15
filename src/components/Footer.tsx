@@ -18,7 +18,7 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center mb-4">
               <img 
-                src="/lovable-uploads/curexpert-logo.png" 
+                src="/curexpert-uploads/curexpert-logo.png" 
                 alt="CureXpert Logo" 
                 className="h-10 w-10 mr-2" 
               />
@@ -75,11 +75,11 @@ export default function Footer() {
             </h3>
             <div className="grid grid-cols-5 gap-3">
               <a href="https://www.facebook.com/profile.php?id=61574901291317" target="_blank" rel="noopener noreferrer" 
-                className="bg-blue-500 hover:bg-blue-600 p-3 rounded-full flex items-center justify-center transition-all duration-300 hover:-translate-y-1 text-blue-950 hover:text-blue-950">
+                className="bg-blue-500 hover:bg-blue-600 w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300 hover:-translate-y-1 text-blue-950 hover:text-blue-950">
                 <Facebook className="h-5 w-5" />
               </a>
               <a href="https://www.instagram.com/curexpertindia?igsh=YzJ4bWx6cTVwZHl1" target="_blank" rel="noopener noreferrer"
-                className="bg-blue-500 hover:bg-blue-600 p-3 rounded-full flex items-center justify-center transition-all duration-300 hover:-translate-y-1 text-blue-950 hover:text-blue-950">
+                className="bg-blue-500 hover:bg-blue-600 w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300 hover:-translate-y-1 text-blue-950 hover:text-blue-950">
                 <Instagram className="h-5 w-5" />
               </a>
               {/* <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"
@@ -87,7 +87,7 @@ export default function Footer() {
                 <Twitter className="h-5 w-5" />
               </a> */}
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
-                className="bg-blue-500 hover:bg-blue-600 p-3 rounded-full flex items-center justify-center transition-all duration-300 hover:-translate-y-1 text-blue-950 hover:text-blue-950">
+                className="bg-blue-500 hover:bg-blue-600 w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300 hover:-translate-y-1 text-blue-950 hover:text-blue-950">
                 <Linkedin className="h-5 w-5" />
               </a>
               {/* <a href="https://youtube.com" target="_blank" rel="noopener noreferrer"
