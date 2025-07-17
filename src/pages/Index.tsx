@@ -42,6 +42,8 @@ const Index = () => {
         <SpecialtiesSection />
 
         <ServiceSection/>
+
+        <PartnersSection />
         
         <VideoCarousel />
 
@@ -52,8 +54,6 @@ const Index = () => {
         <DoctorTestimonials />
         
         <Contact />
-        
-        <PartnersSection />
         
         <FAQSection />
 
